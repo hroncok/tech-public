@@ -1,0 +1,55 @@
+%pdflatex-this
+\documentclass[10pt]{article}
+\usepackage[czech]{babel}
+\usepackage[top=20mm, bottom=15mm, includefoot, left=20mm, right=20mm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage[unicode=true]{hyperref}
+\usepackage[parfill]{parskip}
+\usepackage{enumerate}
+
+% římské číslování pro section
+\renewcommand \thesection{Čl. \arabic{section}}
+
+
+\def \Rok {2014}
+\def \Cislo {1}
+\def \Obsah {Volby do představenstva klubu}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+% jednostranná sazba
+\fancyfoot[C]{\thepage}
+\lhead{Interní předpis tech-\Rok-\Cislo~\Obsah}
+
+\hypersetup{
+	pdfauthor={Přípravný výbor tech@su},
+	pdftitle={Interní předpis tech-\Rok-\Cislo~\Obsah},
+	pdfkeywords={tech@su, tech, SU, Studentká Unie, interní předpis},
+	colorlinks=true,
+	hidelinks=true,
+}
+
+\begin{document}
+
+\section{Předmět interního předpisu}
+	Tento předpis definuje jak probíhají volby do představenstva klubu tech@su, a to zejména vyhlášení, kandidaturu a vyhodnocení výsledků voleb.
+
+\section{Vyhlášení}
+	
+\section{Kandidatura}
+
+\section{Vyhodnocení}
+
+\vspace{10mm}
+
+Schváleno přípravným výborem tech@su dne:
+
+\vspace{30mm}
+
+\hfill V Praze dne \today
+
+\hfill Přípravný výbor klubu tech@su
+
+\end{document}
