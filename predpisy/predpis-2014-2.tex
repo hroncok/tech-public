@@ -1,0 +1,76 @@
+%pdflatex-this
+\documentclass[10pt]{article}
+\usepackage[czech]{babel}
+\usepackage[top=20mm, bottom=15mm, includefoot, left=20mm, right=20mm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage[unicode=true]{hyperref}
+\usepackage[parfill]{parskip}
+\usepackage{enumerate}
+
+% římské číslování pro section
+\renewcommand \thesection{Čl. \arabic{section}}
+
+
+\def \Rok {2014}
+\def \Cislo {2}
+\def \Obsah {Členské příspěvky a trvání účetních období}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+% jednostranná sazba
+\fancyfoot[C]{\thepage}
+\lhead{Interní předpis tech-\Rok-\Cislo~\Obsah}
+\rhead{verze 0.1}
+
+\hypersetup{
+	pdfauthor={Přípravný výbor tech@su},
+	pdftitle={Interní předpis tech-\Rok-\Cislo~\Obsah},
+	pdfkeywords={tech@su, tech, SU, Studentká Unie, interní předpis},
+	colorlinks=true,
+	hidelinks=true,
+}
+
+\begin{document}
+
+\section{Předmět interního předpisu}
+	Tento předpis definuje způsob placení členských příspěvků a trvání účetních období.
+
+\section{Zakládání členství}
+	\begin{enumerate}
+		\item Členem klubu se může stát každý, kdo splňuje podmínky definované ve stanových SU a klubu tech@su.
+	\end{enumerate}
+\section{Účetní období}
+	\begin{enumerate}
+		\item Účetním období klubu je půl roku a řídí se podle interního předpisu SU či usnesení parlamentu
+		\begin{enumerate}
+			\item První pololetí trvá od 1.1. do 30.6.
+			\item Druhé pololetí trvá od 1.7. do 31.12.
+		\end{enumerate}
+	\end{enumerate}
+\section{Placení členských příspěvků}
+	\begin{enumerate}
+		\item Členské příspěvky jsou splatné do 5-ti dnů od vstup člena do klubu
+		\item Současný člen musí uhradit členské příspěvky na aktuální období do 30-ti dnů od počátku pololetí
+		\item Příspěvky lze platit pouze hotově a jejich vybírání zajišťuje předseda nebo osoba jím pověřená
+		\item Výše členského příspěvku je stanovena na 100 Kč za půlroční kalendářní období
+	\end{enumerate}
+\section{Závěrečná ustanovení}
+	\begin{enumerate}
+		\item Členské příspěvky se využívají pro pokrytí základních výdajů spojených s fungováním klubu a o jejich čerpání rozhoduje představenstvo
+	\end{enumerate}
+
+	
+
+\vspace{10mm}
+
+Schváleno představenstvem tech@su dne \today
+
+\vspace{30mm}
+
+\hfill V Praze dne \today
+
+\hfill Představenstvo klubu tech@su
+
+\end{document}
