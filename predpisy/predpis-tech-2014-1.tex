@@ -7,22 +7,23 @@
 \usepackage[unicode=true]{hyperref}
 \usepackage[parfill]{parskip}
 \usepackage{enumerate}
+\usepackage{lastpage}
 
 % římské číslování pro section
 \renewcommand \thesection{Čl. \arabic{section}}
 
-
 \def \Rok {2014}
 \def \Cislo {1}
 \def \Obsah {Volby do představenstva klubu}
+\def \Hash {\input{.pdflatexrun/predpis-tech-\Rok-\Cislo.version}}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
 % jednostranná sazba
-\fancyfoot[C]{\thepage}
 \lhead{Interní předpis tech-\Rok-\Cislo~\Obsah}
-\rhead{verze 0.1}
+\lfoot{verze \Hash}
+\rfoot{strana \thepage/\pageref{LastPage}}
 
 \hypersetup{
 	pdfauthor={Přípravný výbor tech@su},
