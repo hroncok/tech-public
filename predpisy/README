@@ -1,0 +1,7 @@
+Předpisy by měly dodržovat jednotný formát souboru predpis-tech-YYYY-CC
+CC je pořadové číslo předpisu v daném roce
+
+Každý schválený předpis musí mít v sobě uvedené správné datum schválení představenstvem a zároveň musí být podepsán jakýmkoliv členem představenstva.
+
+Pokud vám nejde tex soubor zkompilovat kvůli chybějícímu souboru s verzí, tak zakomentujete všechny výskyty proměnné \Hash
+Pro správné generování pdf souboru včetně vytváření verzí lze použít https://gist.github.com/tomkukral/8248548
