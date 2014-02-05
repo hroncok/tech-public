@@ -1,32 +1,35 @@
 Hlavička:
 	Zápis ze schůze tech@SU - 5.2.2014
-	Při zahájení schůze byli přítomní: Petr Hodač, Tomáš Kukrál, Jakub Tauchman
-	Dorazili po zahájení schůze: Michal Halenka 18:13
+	Přítomní členové představantva: Petr Hodač, Tomáš Kukrál, Jakub Tauchman
+	Hosté: Michal Halenka, Simona Stančeková, Pavel Valach, Lukáš Nagy, Stanislav Oliviník, Jakub Janata, Pavol Kušlita, Václava Sedlmajerová
 	Hlasování se uvádějí ve tvaru (pro/proti/nehlasovalo)
+	Začátek schůze: 18:11
+	Konec schůze 19:20
 Program:
 Předpis 1/2014 o volbách
-	hlasování (0-0-0) - schváleno
-
+	Představenstvo klubu schvaluje předpis 1/2014 (545fc4d82dad7f2e5fb2787844c4e187e95c8f84)
+	hlasování (3-0-0) - schváleno
 Předpis 2/2014 o členských příspěvcích
-	Jak evidovat členy? OOCalc nebo punkový plain/text soubor?
+	Představenstvo klubu schvaluje předpis 2/2014 (94a5eaa001a8b44b7c09a0f3ac65e5ddea4f1465)
+	hlasování (3-0-0) - schváleno
 	Požádat o přidání hlasování o členských příspěvcích na parlamentu SU 26.2.
-	hlasování (0-0-0) - schváleno
-
+	Jak evidovat členy? OOCalc nebo punkový plain/text soubor?
 Informace o klubu na webu
-	co napíšeme o klubu na stránky SU
-	co dáme na web? 
-		Tomáš Kukrál: minisite?
-
+	Doména tech.cvut.cz - pokusíme se získat doménu tech.cvut.cz
+		Michal Strnad se zeptá a domluví schůzku
+	Co napíšeme o klubu na stránky SU
+		Klub tech@SU sdružuje studenty a přátele ČVUT v Praze. Nejlepší zkušenosti jsou ty, ke kterým se může připojit přes konzoli!
+		Poslat Vojtovi
 Virtuál u VICu
 	V jakém stavu je jednání s VICem o virtuálu?
-
+	Ve VICu mají vmware
+	ping vic.cvut.cz
 Konfera @su.cvut.cz
-	Kdo k ní má teď přístup?
+	Kdo k ní má teď přístup? Michal a Vendy
 	Jak jí umístíme?
 		Google groups?
-
 Konfera tech@su.cvut.cz
-	Kdo má přístup?
+	Kdo má přístup? Vendy a Michal
 		členové konference tech@su:
 		gura.tomas at gmail.com
 		j.kobezda at pod.cvut.cz
@@ -34,8 +37,8 @@ Konfera tech@su.cvut.cz
 		lukas_nagy at sin.cvut.cz
 		martin.cerny at pod.cvut.cz
 		michal.halenka at sin.cvut.cz
-		mracna.m at gmail.com
-		msabo at buk.cvut.cz
+		-mracna.m at gmail.com
+		-msabo at buk.cvut.cz
 		ondrej.michalcik at gmail.com
 		p.hodac at sh.cvut.cz
 		prazape at gmail.com
@@ -49,13 +52,16 @@ Konfera tech@su.cvut.cz
 		tomas.zloch at su.cvut.cz
 		v.cerny at pod.cvut.cz
 		zvana at buk.cvut.cz
-
-
-Doména tech.cvut.cz
-	Schůzka ve VICu?
-
+		+jakub.janata@gmail.com
+		+paulos@sin.cvut.cz
 Servery od active24
-
-Spolupráce se @seznam_cz
-
+		Příští týden?
+		Je třeba napsat článek na hosting.cz
+		Spolupráce na technokrati	
+Spolupráce se @seznam_cz Vendy dohledá zakládatele SU v @seznam_cz
 Různé
+	Doporučení pro SU z pohledu IT
+	Skupiny servery, síť, PR
+	Na únor bude tech@SU ve vedení SIN
+	Pokus a nové členy - kdo může, tak se zeptá
+	Koho nabírat?
