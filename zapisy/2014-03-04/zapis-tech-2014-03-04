@@ -10,12 +10,23 @@ Přednášku o NTP připraví: Michal Strnad, Jan Doležal, Jakub Janata, Petr P
 Schválení zápisu z minulé schůze
 	Představenstvo klubu tech@SU schvaluje zápis ve znění db3e5d07b8dfe6f7bb2a6dedaaad64ea480e17e9 - 3/0/0
 Příjem nových členů
+	Tito členové byli přijati mezi členy klubu: Michal Halenka, Petr Hodač, Lukáš Koštenský, Tomáš Kukrál, Lukáš Nagy, Stanislav Olivík, Michal Strnad, Jakub Tauchman, Zdeněk Váňa
 InstallFest
+	Líbil se nám workshop k KnotDNS a zvažujeme jeho nasazení v rámci kolejních sítí.
+	V případě zájmu uděláme přednášku o nastavení unbound serveru pro validaci DNSSEC na localhostu
 Využití serverů od A24 - projekt mlha
+	Předvedení jak vypadá login do OpenNebuly a jak funguje deploy VM.
+	Jeden stroj ze SIN bude zapojen do projektu Mlha na BUK, je třeba vyměnit si SSH klíče pro oneadmin usera.
 Spolupráce s elmag.org
+	Tomáš Kukrál pomáhá katedře v opravě současného laserového spoje a řeší monitorování ztrátovosti paketů. Jakákoliv pomoc je vítána.
 Přidělování IP adres
-různé
-	Propagace Majáles
+Různé
+	Propagace Majáles - nápady:
+		hackování nějakého stroje
+		zamrzání windows pomocí flood6
+		ukázka sniffingu údajů - na PC nebo WiFi
 	Spolupráce @seznam_cz - odpověď Michala Dolečka
+		zkusíme domluvit schůzku, kde se domluvíme co dál
 	Technokrati
+		Zviditelnění ČVUT a CESNETu na středních školách.
 PHAT!
