@@ -8,6 +8,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<style>
+	body {
+		padding: 5px;
+	}
+	a {
+		display: block;
+		border: 1px solid #ddd;
+		padding: 7px;
+		width: 100%;
+	}
+	a:hover {
+		border: 1px solid #aaa;
+		border-left: 1px solid #000;
+		text-decoration: none;
+	}
+	div.fit a, a.fit {
+		color: #fff;
+		background-color: #5bc0de;
+	}
+	div.fel a, a.fel {
+		color: #fff;
+		background-color: #428BCA;
+	}
+
+</style>
 <script>
 $(document).ready(function () {
 	$('button[id|="obsah"]').on('click', function (e) {
@@ -25,6 +50,7 @@ $(document).ready(function () {
 	});
 });
 </script>
+
 <!-- vybírání obsahu -->
 <button type="button" id="obsah-vsechno" class="btn btn-success">
 	<span class="glyphicon glyphicon-star"></span> všechno
@@ -37,64 +63,58 @@ $(document).ready(function () {
 </button>
 
 <h1>Odkazy</h1>
-	<ul>
-		<li><a href="https://kos.cvut.cz/">KOS</a> - informační systém ČVUT - zápis předmětů, zápis zkoušek, tvorba rozvrhu</li>
-		<li><a href="https://udb.fel.cvut.cz/">UDB</a> - vyhledávání lidí a rozvrhů na FELu - heslo eduroam, přesměrování e-mailů</li>
-		<li><a href="http://www.utvs.cvut.cz/">Ústav tělesné výchovy a sportu</a> - zápis tělocviku (předmět v KOSu a konkrétní vybrat tady)</li>
-		<li><a href="http://www.suz.cvut.cz/">Správa účelových zařízení</a> koleje, ubytování</li>
-		<li><a href="http://agata.suz.cvut.cz/jidelnicky/index.php">Jídelníček menzy</a> jídla, otevírací doby</li>
-		<li><a href="https://play.google.com/store/apps/details?id=cz.cvut.kosapp">Android app KOSeek</a> rozvrhy, místnosti</li>
-	</ul>
-	<ul>
-		<li><a href="http://tech.su.cvut.cz/">klub tech@SU</a></li>
-		<li><a href="http://su.cvut.cz/">Studentská unie ČVUT</a></li>
-	</ul>
+	<a href="https://kos.cvut.cz/">KOS - informační systém ČVUT - <span class="label label-default">zápis</span> předmětů, zápis zkoušek, tvorba <span class="label label-default">rozvrhu</span></a>
+	<a href="https://udb.fel.cvut.cz/">UDB - vyhledávání lidí a rozvrhů na FELu - heslo <span class="label label-default">eduroam</span>, přesměrování e-mailů</a>
+	<a href="http://www.utvs.cvut.cz/">Ústav tělesné výchovy a sportu - zápis <span class="label label-default">tělocviku</span> (předmět v KOSu a konkrétní vybrat tady)</a>
+	<a href="http://www.suz.cvut.cz/">Správa účelových zařízení koleje, ubytování</a>
+	<a href="http://agata.suz.cvut.cz/jidelnicky/index.php">Jídelníček menzy <span class="label label-default">jídla</span>, otevírací doby</a>
+	<a href="https://play.google.com/store/apps/details?id=cz.cvut.kosapp">Android app KOSeek rozvrhy, místnosti</a>
+	
+	
+	<a href="http://tech.su.cvut.cz/">klub tech@SU</a>
+	<a href="http://su.cvut.cz/">Studentská unie ČVUT</a>
 
-	<ul class="fel">
-		<li><a href="https://imap.feld.cvut.cz/">Školní e-mail FEL</a></li>
-		<li><a href="http://felguide.monty.cz/">FEL guide</a> neoficiální hodnocení vyučujících</li>
-		<li><a href="https://www.fel.cvut.cz/anketa/index_starsi.html">Archiv anket</a> oficiální archiv anket - vyžaduje příhlášení</li>
-		<li><a href="http://www.fel.cvut.cz/education/harmonogram.html">Harmonogram roky</a> důležíté termíny</li>
-		<li><a href="http://www.fel.cvut.cz/education/uredni-hodiny.html">Úřední hodiny PEO</a> důležíté termíny</li>
-	</ul>
+	<div class="fel">
+	<a href="https://imap.feld.cvut.cz/">Školní <span class="label label-default">e-mail</a></a>
+	<a href="http://felguide.monty.cz/">FEL guide neoficiální hodnocení vyučujících</a>
+	<a href="https://www.fel.cvut.cz/anketa/index_starsi.html">Archiv anket oficiální archiv anket - vyžaduje příhlášení</a>
+	<a href="http://www.fel.cvut.cz/education/harmonogram.html">Harmonogram roku - důležité <span class="label label-danger">termíny</span></a>
+	<a href="http://www.fel.cvut.cz/education/uredni-hodiny.html">Úřední hodiny PEO důležíté termíny</a>
+	</div>
 
-
-	<ul>
-		<li class="fit"><a href="http://fit-wiki.cz">FIT-WIKI</a> znalostni wiki :)</li>
-	</ul>
-
-
+	<div class="fit">
+	<a href="http://fit-wiki.cz">FIT-WIKI znalostni wiki :)</a>
+	</div>
 
 <h1>Místa</h1>
-	<ul>
-		<li class="fit"><a href="https://foursquare.com/v/%C4%8Dvut-fit-t7/4e748dff18506506cc8802df">ČVUT FIT T7</a></li>
-		<li class="fit"><a href="https://foursquare.com/v/%C4%8Dvut-fit-t9/4e0ae65bb61cf2466a0b0feb">ČVUT FIT T9</a></li>
-		<li class="fel"><a href="https://foursquare.com/v/%C4%8Dvut-fel-t2/4af3fa70f964a520bcef21e3">ČVUT FEL T2</a></li>
-		<li class="fel"><a href="https://foursquare.com/v/%C4%8Dvut-fel-z4/509b5018e4b0bd1e67504df4">ČVUT FEL Z4</a></li>
-		<li><a href="https://foursquare.com/v/vydavatelstv%C3%AD-pr%C5%AFkaz%C5%AF-%C4%8Dvut/4c84dd89ee6fef3bfb2d385c">Vydavatelství průkazů</a></li>
-	</ul>
-	<ul>
-		<li><a href="https://foursquare.com/v/na-urale/4bacf747f964a5200a1f3be3">Na Urale</a></li>
-		<li><a href="https://foursquare.com/v/kulturn%C3%AD-centrum-klubovna/4b9555f6f964a520259d34e3">Klubovna</a></li>
-		<li><a href="https://foursquare.com/v/u-p%C4%9Btn%C3%ADka/4b459de7f964a5209a0e26e3">U Pětníka</a></li>
-		<li><a href="https://foursquare.com/v/restaurace-pet%C5%99%C3%ADn/4af30418f964a520d1e921e3">Restaurace Petřín</a></li>
-		<li><a href="https://foursquare.com/v/mei-xin-restaurace/4fbb9007e4b01e39076d0fd9">Mei Xin</a></li>
-		<li><a href="https://foursquare.com/v/kaufland/4fc66309121d1e91daebded9">Kaufland</a></li>
-		<li>Vietnamec pod MK</li>
-		<li>Vietnamec nad MK</li>
-	</ul>	
-	<ul>
-		<li><a href="https://foursquare.com/v/n%C3%A1rodn%C3%AD-technick%C3%A1-knihovna/4af2fd01f964a52095e921e3">NTK - Národní technická knihovna</a></li>
-	</ul>
-	<ul>
-		<li><a href="https://foursquare.com/v/koleje-strahov/4ba1238df964a520979b37e3">Koleje Strahov</a></li>
-		<li><a href="https://foursquare.com/v/kolej-podol%C3%AD-praha/4b7e8856f964a52054f12fe3">Koleje Podolí</a></li>
-		<li><a href="https://foursquare.com/v/kolej-dejvick%C3%A1-praha/4c3f96f5e26920a1beaf5be7">Dejvická kolej</a></li>
-		<li><a href="https://foursquare.com/v/kolej-orl%C3%ADk/4bb3b0e042959c74ac4e222c">Kolej Orlík</a></li>
-		<li><a href="https://foursquare.com/v/kolej-bubene%C4%8D/4d6fc99cd9bacbff2b084a4e">Bubenčská kolej</a></li>
-		<li><a href="https://foursquare.com/v/sinkuleho-kolej/4c47e580972c0f470a602521">Sinkuleho kolej</a></li>
-		<li><a href="https://foursquare.com/v/hl%C3%A1vkova-kolej/4bdbe6a7fed22d7f9c9157c9">Hlávkova kolej</a></li>
-		<li><a href="https://foursquare.com/v/masarykova-kolej/4c987f0d05a1b1f704c48d53">Masarykova kolej</a></li>
-	</ul>
+	<div class="fit">
+	<a href="https://foursquare.com/v/%C4%8Dvut-fit-t7/4e748dff18506506cc8802df">ČVUT FIT T7</a>
+	<a href="https://foursquare.com/v/%C4%8Dvut-fit-t9/4e0ae65bb61cf2466a0b0feb">ČVUT FIT T9</a>
+	</div>
+	<div class="fel">
+	<a href="https://foursquare.com/v/%C4%8Dvut-fel-t2/4af3fa70f964a520bcef21e3">ČVUT FEL T2</a>
+	<a href="https://foursquare.com/v/%C4%8Dvut-fel-z4/509b5018e4b0bd1e67504df4">ČVUT FEL Z4</a>
+	</div>
+	<a href="https://foursquare.com/v/vydavatelstv%C3%AD-pr%C5%AFkaz%C5%AF-%C4%8Dvut/4c84dd89ee6fef3bfb2d385c">Vydavatelství průkazů</a>
+	<a href="https://foursquare.com/v/n%C3%A1rodn%C3%AD-technick%C3%A1-knihovna/4af2fd01f964a52095e921e3">NTK - Národní technická knihovna</a>
+
+	<a href="https://foursquare.com/v/na-urale/4bacf747f964a5200a1f3be3">Na Urale</a>
+	<a href="https://foursquare.com/v/kulturn%C3%AD-centrum-klubovna/4b9555f6f964a520259d34e3">Klubovna</a>
+	<a href="https://foursquare.com/v/u-p%C4%9Btn%C3%ADka/4b459de7f964a5209a0e26e3">U Pětníka</a>
+	<a href="https://foursquare.com/v/restaurace-pet%C5%99%C3%ADn/4af30418f964a520d1e921e3">Restaurace Petřín</a>
+	<a href="https://foursquare.com/v/mei-xin-restaurace/4fbb9007e4b01e39076d0fd9">Mei Xin</a>
+	<a href="https://foursquare.com/v/kaufland/4fc66309121d1e91daebded9">Kaufland</a>
+	<a>Vietnamec pod MK</a>
+	<a>Vietnamec nad MK</a>
+
+
+	<a href="https://foursquare.com/v/koleje-strahov/4ba1238df964a520979b37e3">Koleje Strahov</a>
+	<a href="https://foursquare.com/v/kolej-podol%C3%AD-praha/4b7e8856f964a52054f12fe3">Koleje Podolí</a>
+	<a href="https://foursquare.com/v/kolej-dejvick%C3%A1-praha/4c3f96f5e26920a1beaf5be7">Dejvická kolej</a>
+	<a href="https://foursquare.com/v/kolej-orl%C3%ADk/4bb3b0e042959c74ac4e222c">Kolej Orlík</a>
+	<a href="https://foursquare.com/v/kolej-bubene%C4%8D/4d6fc99cd9bacbff2b084a4e">Bubenčská kolej</a>
+	<a href="https://foursquare.com/v/sinkuleho-kolej/4c47e580972c0f470a602521">Sinkuleho kolej</a>
+	<a href="https://foursquare.com/v/hl%C3%A1vkova-kolej/4bdbe6a7fed22d7f9c9157c9">Hlávkova kolej</a>
+	<a href="https://foursquare.com/v/masarykova-kolej/4c987f0d05a1b1f704c48d53">Masarykova kolej</a>
 </body>
 </html> 
