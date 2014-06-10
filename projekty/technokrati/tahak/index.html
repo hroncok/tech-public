@@ -38,14 +38,14 @@ $(document).ready(function () {
 	$('button[id|="obsah"]').on('click', function (e) {
 		var typ = ($(this).attr('id').split('-')[1]);
 		if (typ == 'fel') {
-			$('.fel').fadeIn();
-			$('.fit').fadeOut();
+			$('.fel').show();
+			$('.fit').hide();
 		} else if (typ == 'fit') {
-			$('.fel').fadeOut();
-			$('.fit').fadeIn();
+			$('.fel').hide();
+			$('.fit').show();
 		} else {
-			$('.fel').fadeIn();
-			$('.fit').fadeIn();
+			$('.fel').show();
+			$('.fit').show();
 		}
 	});
 });
