@@ -1,48 +1,40 @@
 Hlavička:
 	Zápis ze schůze tech@SU 2015-04-06
-	Přítomní členové představenstva: 
-	Přítomní členové klubu: 
+	Přítomní členové představenstva: Tomáš Kukrál, Petr Hodač
+	Přítomní členové klubu: Lukáš Nagy, Zdeněk Váňa, Michal Strnad
 	Hlasování se uvádějí ve tvaru (pro/proti/nehlasovalo)
 	Začátek schůze: 
 	Konec schůze: 
 	Místo: otevřené učebna ve školicím
 Program:
-
-Z minulého
-Schválení zápisu ze schůze 2014-11-27
-        Představenstvo klubu tech@SU schvaluje zápis ve znění -  2/0/0
-Tech. track na IF
-	Bude, uděláme	
-Dalsi rocnik #TECHnokrati
-	Vymyslet termín
-	FEL/FIT?
-	Schůzka s Jetmarem - Hody
-Spoluprace s cz.nic
-	do doodlu termíny
-	nedělat to jako podolí
-Spoluprace se SUTem?
-	serverovny - domluvime po installfestu
-Exkurze pro rok 2015
-	nová paka - radek
-Emaily + weby SU (vps dalsi virtual) 
-	nginx
-	php5
-	mysql
-	postgresql
-
-Vyhlášení voleb
-	harmonogram:
-		6.4. vyhlášení voleb (do konfery, web, tw)
-		průběžné vyvěšování kandidátek (do 26.4.)
-		28.4. - 30.4. konání voleb
-		1. 5. vyhlášení výsledků voleb
-	způsob konání voleb:
-		oprávnění voliči odevzdají svůj hlas do připravené urny 28.4. 21:30 Na Rychtě
-		během dalších dvou dnů voleb mají voliči možnost domluvit si s volební komisi individuální hlasování
-	počet volených pozic:
-		3
-	volební komise: 
-		Veronika Huvarová 
-		Jan Hejtmánek
-		Michal Halenka
-		
+        Představenstvo klubu tech@SU schvaluje zápis ve znění - f2e1d1e1cdb59910dca4c8a1e19dded66471a4b5 - 2/0/0
+	Dalsi rocnik #TECHnokrati
+		Vymyslet termín - v červnu, 5|8.6.
+		FEL/FIT? - FIT
+	Spoluprace se SUTem?
+		serverovny - domluvime po installfestu
+		vyberem SUT - poslat Hodymu
+	Exkurze pro rok 2015
+		nová paka - radek
+		kokura
+	Emaily + weby SU (vps dalsi virtual) 
+		nginx
+		php5
+		mysql
+		postgresql
+	Vyhlášení voleb
+		harmonogram:
+			6.4. vyhlášení voleb (do konfery, web, tw)
+			průběžné vyvěšování kandidátek (do 26.4.)
+			28.4. - 30.4. konání voleb
+			1. 5. vyhlášení výsledků voleb
+		způsob konání voleb:
+			oprávnění voliči odevzdají svůj hlas do připravené urny 28.4. 21:30 Na Rychtě
+			během dalších dvou dnů voleb mají voliči možnost domluvit si s volební komisi individuální hlasování
+		počet volených pozic:
+			3
+		volební komise: 
+			Veronika Huvarová 
+			Jan Hejtmánek
+			Michal Halenka
+	Diskuze o kartovém systému
