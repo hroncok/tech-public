@@ -1,0 +1,79 @@
+%pdflatex-this
+\documentclass[10pt]{article}
+\usepackage[czech]{babel}
+\usepackage[top=20mm, bottom=15mm, includefoot, left=20mm, right=20mm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage[unicode=true]{hyperref}
+\usepackage[parfill]{parskip}
+\usepackage{enumerate}
+\usepackage{lastpage}
+
+% římské číslování pro section
+\renewcommand \thesection{Čl. \arabic{section}}
+
+\def \Obsah {Volby do představenstva klubu}
+\def \Hash {\input{.pdflatexrun/tech-volby.version}}
+\def \Datum {19.07.2015} % datum schválení předpisu
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+% jednostranná sazba
+\lhead{Zpráva volební komise o průběhu voleb do představenstva klubu tech@SU konaných dne 16.07.2015}
+\lfoot{verze \Hash}
+\rfoot{strana \thepage/\pageref{LastPage}}
+
+\hypersetup{
+	pdfauthor={Volební komise ve složení: Veronika Huvarová, Jan Hejtmánek, Michal Halenka},
+	pdftitle={Zpráva volební komise o průběhu voleb do představenstva klubu tech@SU konaných dne 16.07.2015},
+	pdfkeywords={tech@SU, tech, SU, Studentká Unie, volby},
+	colorlinks=true,
+	hidelinks=true,
+}
+
+\begin{document}
+
+\section{Předmět zprávy}
+	Tato zpráva popisuje vyhlášení, průběh a výsledek voleb do představenstva klubu tech@SU konané dne 16.7.2015.
+
+\section{Vyhlášení}
+	Volby do představenstva klubu tech@SU vyhlásil předseda do konference dne 15.6.2015 ve 23:17 následovně:
+		\begin{itemize}
+			\item termín a způsob odevzdání kandidátek: od vyhlášení voleb do 10.7.2015 
+			\item místo a čas konání voleb: 15.7.2015 ve 20:00 v zasedací místnosti tech@SU
+			\item datum vyhlášení výsledků: 16.7.2015
+			\item počet volených pozic: 3
+		\end{itemize}
+
+\section{Kandidáti}
+	Volební komise přijala 3 kandidátky od Petra Hodače, Stanislava Olivíka a Michala Strnada. Žádná kandidatura nebyla odvolána před koncem voleb.
+	
+\section{Průběh}
+	Volební komise rozdala každému členu lísteček. Členové na lísteček napsali označení kandidáta/kandidátů, kterým udělují svůj hlas, a poté lísteček vhodili do urny. Ve 20:30 bylo hlasování ukončeno, a za přítomnosti všech hlasujících byla urna volební komisí rozpečetěna, a hlasy byly sečteny.
+
+\section{Vyhodnocení}
+	Kandidáti obdrželi následující počty hlasů:
+	\begin{itemize}
+		\item 8 - Petr Hodač
+		\item 7 - Stanislav Olivík
+		\item 7 - Michal Strnad
+	\end{itemize}
+	Všichni kandidáti získali více než 0 hlasů, žádný tedy nebyl ze seznamu kandidátů vyřazen. Počet volených pozic je 3, a proto byli první 3 kandidáti zvoleni jako nové představenstvo klubu tech@SU.
+	Voleb se zúčastnilo 8 členů ze 13.
+
+\section{Stížnosti}
+	Volební komise obdržela jednu formální anonymní stížnost na průběh voleb, konkrétně na chybné datum vyhlášení voleb v emailu, který vyhlašoval volby.
+	Volební komise se usnesla, že proti této skutečnosti nevznesl žádný člen, kandidát, potenciální kandidát, ani jiná osoba námitku, která by naznačovala že bylo někomu ukřivděno, a proto tato skutečnost nebude mít na průběh voleb vliv.
+
+\vspace{10mm}
+
+Schváleno volební komisí klubu tech@SU dne: \Datum
+
+\vspace{30mm}
+
+\hfill V~Praze dne \Datum
+
+\hfill Volební komise klubu tech@SU
+
+\end{document}
